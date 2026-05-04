@@ -2,7 +2,7 @@ import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js
 
 // 🔴 Yaha apni Supabase details daal
 const supabase = createClient(
-  'YOUR_SUPABASE_URL',
+  'https://rajmcqxllncobghpahyc.supabase.co/rest/v1/',
   'YOUR_ANON_KEY'
 )
 
