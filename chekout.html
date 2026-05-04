@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout - DiviMart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2 style="text-align:center;">Checkout</h2>
+
+<div class="checkout-box">
+
+  <input type="text" id="name" placeholder="Your Name">
+  <input type="text" id="phone" placeholder="Mobile Number">
+  <input type="text" id="address" placeholder="Full Address">
+
+  <select id="payment">
+    <option value="UPI">UPI</option>
+    <option value="Cash on Delivery">Cash on Delivery</option>
+  </select>
+
+  <button onclick="placeOrder()">Place Order</button>
+
+</div>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
