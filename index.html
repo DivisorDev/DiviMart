@@ -1,45 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DiviMart</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DiviMart</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
   <h1>DiviMart 🛒</h1>
-  <input type="text" id="search" placeholder="Search products...">
 </header>
 
-<div class="banner">🔥 Free Delivery above ₹299</div>
-
-<!-- Categories -->
-<div class="categories">
-  <button onclick="filterCategory('all')">All</button>
-  <button onclick="filterCategory('grocery')">Grocery</button>
-  <button onclick="filterCategory('vegetables')">Vegetables</button>
-  <button onclick="filterCategory('fruits')">Fruits</button>
-  <button onclick="filterCategory('dairy')">Dairy</button>
-  <button onclick="filterCategory('electric')">Electric</button>
-</div>
-
-<!-- Products -->
-<div id="products" class="products"></div>
-
-<!-- Cart -->
-<div class="cart-bar">
-  <span id="cartCount">0 Items</span>
-  <button onclick="goCheckout()">Checkout</button>
-</div>
-
-<footer>
-  Powered by Divisor Studio 2016
-</footer>
+<div class="products" id="products"></div>
 
 <script type="module" src="app.js"></script>
-
 </body>
 </html>
