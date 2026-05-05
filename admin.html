@@ -1,39 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Panel - DiviMart</title>
-  <link rel="stylesheet" href="admin.css">
+<title>Admin</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h2 style="text-align:center;">DiviMart Admin Panel</h2>
+<h2 style="text-align:center;">Admin Panel</h2>
 
-<!-- ADD PRODUCT -->
-<div class="admin-box">
-  <h3>Add Product</h3>
-
-  <input id="name" placeholder="Product Name"><br><br>
+<div style="padding:20px;">
+  <input id="name" placeholder="Name"><br><br>
   <input id="price" placeholder="Price"><br><br>
-  <input id="category" placeholder="Category (grocery, fruits...)"><br><br>
+  <input id="category" placeholder="Category"><br><br>
   <input type="file" id="imageFile"><br><br>
 
   <button onclick="addProduct()">Add Product</button>
 </div>
-
-<!-- EARNINGS -->
-<h3 style="text-align:center;">Earnings</h3>
-<div id="earnings" style="text-align:center; font-size:20px; margin-bottom:20px;"></div>
-
-<!-- PRODUCTS -->
-<h3 style="text-align:center;">Products</h3>
-<div id="products" style="padding:10px;"></div>
-
-<!-- ORDERS -->
-<h3 style="text-align:center;">Orders</h3>
-<div id="orders" style="padding:10px;"></div>
 
 <script type="module" src="admin.js"></script>
 
